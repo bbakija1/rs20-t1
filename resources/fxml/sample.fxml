@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" styleClass="grid" stylesheets="/css/main.css" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" onAction="#Submit" text="Say Hello World!" GridPane.columnIndex="1">
+         <font>
+            <Font name="Arial Bold Italic" size="32.0" />
+         </font></Button>
+      <Label fx:id="helloWorld" text="helloWorld">
+         <font>
+            <Font name="Arial Bold Italic" size="32.0" />
+         </font></Label>
+   </children>
+</GridPane>
