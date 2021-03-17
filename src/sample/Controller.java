@@ -10,10 +10,12 @@ import static java.awt.Color.*;
 
 public class Controller {
     public Label helloWorld;
+    public GridPane grid;
 
 
     public void Submit(ActionEvent actionEvent) {
         helloWorld.setText("Hello World!");
         helloWorld.setStyle("-fx-background-color: pink");
+        grid.setStyle("-fx-background-color: pink");
     }
 }
